@@ -171,9 +171,9 @@ Label-Overridden: Ditimpa
 Label-Overridden.@meta.@description: >-
   Label yang menyatakan bahwa suntingan yang diberikan pada artikel Wikipedia
   sedang ditimpa oleh suntingan yang lebih baru pada artikel Wikipedia yang
-  sama. Label ini menyiratkan bahwa pengeditan tersebut sudah dikembalikan oleh
-  pengguna kami saat ini, atau dikembalikan atau diperbarui oleh editor
-  Wikipedia lain di Wikipedia.
+  sama. Label ini menyiratkan bahwa suntingan tersebut sudah dikembalikan oleh
+  pengguna kami, atau dikembalikan atau diperbarui oleh editor
+  Wikipedia lainnya.
 Label-Overridden.@meta.@isMachineTranslated: true
 Label-Overridden.@meta.@translatedAt: '2020-07-07T19:26:51.443Z'
 Label-Overridden.@meta.@translator: GoogleCloudTranslationAPI project-wikiloop
@@ -204,14 +204,14 @@ Label-RevertSucceeded.@meta.@description: >-
   suntingan Wikipedia, tindakan berhasil.
 Label-ReviewFeed: Tinjau Lini masa
 Label-ReviewFeed.@meta.@description: >-
-  Label untuk umpan, aliran, atau aliran edit Wikipedia yang masuk akan
+  Label untuk umpan, atau aliran suntingan  Wikipedia yang masuk akan
   ditinjau.
 Label-ReviewedAndSays: 'Meninjau <a href="{href}">{wikiRevId}</a> dan berkata'
 Label-ReviewedAndSays.@meta.@description: Label untuk memulai hukuman dan alasan yang diberikan untuk revisi.
 Label-ShouldRevert: Patut dibatalkan
 Label-ShouldRevert.@meta.@description: >-
-  Label salah satu dari 3 jenis penilaian utama yang mengatakan bahwa pengeditan
-  Wikipedia yang sedang ditinjau merusak untuk Wikipedia dan tidak baik dan
+  Label salah satu dari 3 jenis penilaian utama yang mengatakan bahwa suntingan
+   yang sedang ditinjau bersifat merusak untuk Wikipedia, dan tidak baik ataupun
   konstruktif.
 Label-Snooze: Tunda
 Label-Snooze.@meta.@description: >-
@@ -237,7 +237,7 @@ Label-TopWikis.@meta.@description: >-
 Label-TotalNumber: Total
 Label-TotalNumber.@meta.@description: Label untuk kolom jumlah total penilaian yang diberikan oleh pengguna.
 Label-User: Pengguna
-Label-User.@meta.@description: Label untuk pengguna yang memberikan penilaian atas edit Wikipedia.
+Label-User.@meta.@description: Label untuk pengguna yang memberikan penilaian atas suntingan di Wikipedia.
 Label-Week: Minggu
 Label-Week.@meta.@description: >-
   Label untuk rincian waktu rincian statistik yang dikelompokkan berdasarkan
@@ -263,8 +263,8 @@ MenuItem-Stats.@meta.@description: >-
 Message-AJudgementLogged: 'Penilaian untuk {0} untuk revisi {1} telah dicatat.'
 Message-AJudgementLogged.@meta.@description: >-
   Pesan bahwa penilaian untuk revisi yang diberikan sedang direkam. Parameter
-  {0} adalah nama artikel Wikipedia. Parameter {0} adalah pengenal revisi dari
-  revisi tersebut (edit Wikipedia).
+  {0} adalah nama artikel Wikipedia. Parameter {0} adalah penanda dari
+  revisi tersebut (suntingan Wikipedia).
 Message-CongratsSuccessfullyReverted: 'Selamat! Anda telah berhasil membatalkan {0} secara langsung.'
 Message-DiffNotAvailable: >-
   Perbedaan revisi tidak tersedia untuk saat ini. Silakan ulangi membukanya.
@@ -297,24 +297,24 @@ Message-RevertEditSummary: >-
   Batalkan percobaan/vandalisme menggunakan {0} versi {1}. Lihat atau beri
   pendapat di {2}
 Message-RevertEditSummary.@meta.@description: >-
-  Pesan ringkasan edit ketika perangkat lunak kami menghasilkan suntingan
+  Pesan ringkasan suntingan ketika perangkat lunak kami menghasilkan suntingan
   Wikipedia baru untuk dikomit ke situs web Wikipedia. Parameter {0} adalah nama
   perangkat lunak kami, saat ini "WikiLoop DoubleCheck". Parameter {1} adalah
-  nomor versi perangkat lunak kami, saat ini 4.0.1. {2} adalah url situs web
+  nomor versi perangkat lunak kami, saat ini 4.0.1. {2} adalah URL situs web
   alat kami, saat ini "doublecheck.wikiloop.org".
-Message-SorryWeFailedToRevert: 'Maaf, kami gagal membatalkan revisi {0}.'
+Message-SorryWeFailedToRevert: 'Maaf, kami gagal mengembalikan suntingan {0}.'
 Message-SorryWeFailedToRevert.@meta.@description: >-
-  Pesan untuk memberi tahu pengguna bahwa pengembalian edit yang diberikan
+  Pesan untuk memberi tahu pengguna bahwa pengembalian suntingan yang diberikan
   gagal. Parameter {0} adalah pengidentifikasi revisi.
 Message-TheRevisionIsSuccessfullyRevertedAs: 'Revisi {0} berhasil dibatalkan menjadi {1}.'
 Message-TheRevisionIsSuccessfullyRevertedAs.@meta.@description: >-
-  Pesan yang menyatakan bahwa edit Wikipedia yang diberikan (revisi) berhasil
-  dikembalikan. Parameter {0} adalah pengidentifikasi revisi dari pengeditan
+  Pesan yang menyatakan bahwa suntingan Wikipedia yang dilakukan (revisi) telah berhasil
+  dikembalikan. Parameter {0} adalah pengidentifikasi revisi dari penyuntingan
   Wikipedia yang dikembalikan. Parameter {1} adalah pengidentifikasi revisi
   kedua yang diedit Wikipedia baru yang ada di atas edit Wikipedia sebelumnya
-  yang merupakan hasil dari reverting.
+  yang merupakan hasil dari pengembalian.
 Message-ThereIsNoEditSummary: Tidak ada ringkasan edit.
 Message-ThereIsNoEditSummary.@meta.@description: >-
-  Pesan menunjukkan bahwa edit Wikipedia yang diberikan tidak memiliki
+  Pesan menunjukkan bahwa suntingan Wikipedia yang diberikan tidak memiliki
   penjelasan, lihat https://en.wikipedia.org/wiki/Help:Edit_summary.
 Message-YourJudgementLogged: 'Penilaian Anda untuk {0} untuk revisi {1} telah dicatat.'
